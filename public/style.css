@@ -165,3 +165,7 @@ div#card a#close {
     color: #fff;
     text-decoration: 1.5rem;
 }
+
+ul li div a.check-true {
+    text-decoration: line-through;
+}
