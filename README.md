@@ -7,5 +7,4 @@
 <p align="justify">&emsp;&emsp;Feito isso sua aplicação já estará persistindo os dados na base de dados, e para realizar o deploy você deve criar uma conta e um projeto no Heroku e depois selecionando o método desejado, no meu caso fiz conectando minha conta do GitHub à conta do Heroku e selecionando o repositório que eu queria para deploy.</p>
 
 ## OBSERVAÇÕES:
-- Para rodar usando heroku, deve-se também descomendar as duas linhas comentada sno arquivo "index.js". 
-- Para usar a aplicação localmente no navegador de sua escolha, basta que execute comando <code>npm run dev</code>, e acessar: http://localhost/PORTA, substituindo "PORTA" pelo número da usada no arquivo ".env".
+- Para usar a aplicação localmente no navegador de sua escolha, basta que execute comando <code>npm run dev</code>, e acessar: http://localhost/PORTA, substituindo "PORTA" pelo número da usada no arquivo ".env". Mesmo rodando localmente é preciso que coloque o link correta para seu banco de dados Mongo.DB no arquivo ".env".
